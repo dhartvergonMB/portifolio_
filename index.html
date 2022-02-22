@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./imagens/favicon-16x16.png" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+    <title>Portfólio</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Full Stack Developer - Junior</h1>
+                <p>Matheus Barbosa Pereira</p>
+                <a href="./curriculo.doc" download><button>Saiba mais</button></a>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">conhecimentos</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+              
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/matheus-barbosa-07815b224/"><i class="fab fa-linkedin"></i></i></a>
+            <a href="https://github.com/dhartvergonMB"><i class="fab fa-github-alt"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5585988904346&text=Vim%20pelo%20curr%C3%ADculo"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+              </div>
+              <div class="conhecimento-text" id="css">
+                <p>Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>O python é bastante utilizado em data science, machine learning, desenvolvimento web, desenvolvimento de aplicativos, automação de scripts, fintechs e etc.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git e GitHub</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Git é o sistema de controle de versão open source mais usado no mundo atualmente! Ele é usado para controlar o histórico de alterações de arquivos e principalmente de projetos de desenvolvimento de software. Ele permite mais flexibilidade no fluxo de trabalho, segurança e desempenho.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>Javascript</h3>
+              </div>
+              <div class="conhecimento-text">
+                <center><button id="btnjs" onclick="tela()">teste</button></center>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        </section>
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.jpg" alt="imagem do projeto" />
+              </div>
+              <div class="card-info">
+                <h2>Jogo do sim ou não</h2>
+                <h3>Javascript</h3>
+                <p>Joguinho que fiz no tempo livre.</p>
+                <a href="https://github.com/dhartvergonMB/jogo_sim-nao"><button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+              </div>
+              <div class="card-info">
+                <h2>Rocketseat</h2>
+                <h3>HTML, CSS e JS</h3>
+                <p>Projeto proposto ao final da trilha discover da maratona rocketseat
+                  foi feito com o intuito de melhorar cada vez mais evoluir e melhorar meus aprendizados.</p>
+                <a href="https://github.com/dhartvergonMB/maratona_discover_rocketseat"><button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="imagem do projeto" />
+              </div>
+              <div class="card-info">
+                <h2>Detalhes de usuários do Instagram</h2>
+                <h3>Python</h3>
+                <p>Nesse projeto usei tkinter e outras funções.</p>
+                <a href="https://github.com/dhartvergonMB/Instagram-User-Details_Python"><button class="btn">Saiba Mais</button></a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="hidden" name="accessKey" value="0d027030-d431-4a39-ba44-a8abc1349719">
+        <section class="sessao-contato" id="contato">
+          <div class="contato-wrapper">
+            <div class="contato-left"></div>
+            <div class="contato-right">
+              <h1>Entre em contato</h1>
+              <form>
+                <div class="input-group">
+                    <input type="text" name="name" class="field" id="nome" placeholder="Nome"  required>
+                  <label for="nome" class="field-label"></label>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="email" class="field" id="email" placeholder="E-mail" required>
+                  <label for="email" class="field-label"></label>
+                </div>
+                <div class="input-group">
+                  <textarea class="field" name="message" id="mensagem" placeholder="Dê sua opinião" required></textarea>
+                  <label for="mensagem" class="field-label"></label>
+                </div>
+                
+                <button type="submit" class="btn btn-submit" value="Submit"  onclick="enviar()" >Enviar</button>
+                
+              </form>
+            </div>
+          </div>
+        </section>
+        <footer>
+          <div class="footer-content">
+            <p>
+              
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/matheus-barbosa-07815b224/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/dhartvergonMB"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5585988904346&text=Vim%20pelo%20curr%C3%ADculo"><i class="fab fa-whatsapp"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
+
